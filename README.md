@@ -1,6 +1,6 @@
 # Fix Fuslie's bttv/ffz emotes on youtube
 
-Download this extention 
+Install this extention 
 
 [Firefox](https://addons.mozilla.org/en-US/firefox/addon/request-interceptor/)  
 [Chrome](https://chromewebstore.google.com/detail/request-interceptor/bfgblailifedppfilabonohepkofbkpm)
