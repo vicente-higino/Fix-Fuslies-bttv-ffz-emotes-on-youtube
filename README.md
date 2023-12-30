@@ -5,7 +5,7 @@ Download this extention
 [Firefox](https://addons.mozilla.org/en-US/firefox/addon/request-interceptor/)  
 [Chrome](https://chromewebstore.google.com/detail/request-interceptor/bfgblailifedppfilabonohepkofbkpm)
 
-Download this [file](https://raw.githubusercontent.com/vicente-higino/Fix-Fuslie-s-bttv-fzz-emotes-on-youtube/main/request-interceptor-rules.json)
+Download this [file](https://github.com/vicente-higino/Fix-Fuslies-bttv-ffz-emotes-on-youtube/releases/download/v1.0/request-interceptor-rules.json)
 
 Import the file
 
