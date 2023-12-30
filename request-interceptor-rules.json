@@ -1,0 +1,48 @@
+[
+	{
+		"enabled": true,
+		"id": "bffdc316-6641-4e72-af32-95abb2773ef6",
+		"name": "Rule Group 1",
+		"filter": {
+			"condition": "starts-with",
+			"key": "page-url",
+			"value": ""
+		},
+		"rules": [
+			{
+				"enabled": true,
+				"id": "93a1e09d-dcb3-4142-93e5-bbc82b20d2f5",
+				"criteria": {
+					"key": "url",
+					"condition": "equals",
+					"value": "https://api.betterttv.net/3/cached/frankerfacez/users/youtube/UCujyjxsq5FZNVnQro51zKSQ"
+				},
+				"actions": [
+					{
+						"details": {
+							"value": "https://api.betterttv.net/3/cached/frankerfacez/users/twitch/83402203"
+						},
+						"type": "redirect-to"
+					}
+				]
+			},
+			{
+				"enabled": true,
+				"id": "5b2c2650-c040-458a-83d6-5465af2f9b45",
+				"criteria": {
+					"key": "url",
+					"condition": "equals",
+					"value": "https://api.betterttv.net/3/cached/users/youtube/UCujyjxsq5FZNVnQro51zKSQ"
+				},
+				"actions": [
+					{
+						"details": {
+							"value": "https://api.betterttv.net/3/cached/users/twitch/83402203"
+						},
+						"type": "redirect-to"
+					}
+				]
+			}
+		]
+	}
+]
