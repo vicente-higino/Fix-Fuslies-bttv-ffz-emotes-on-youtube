@@ -10,7 +10,7 @@
 		},
 		"rules": [
 			{
-				"enabled": true,
+				"enabled": false,
 				"id": "93a1e09d-dcb3-4142-93e5-bbc82b20d2f5",
 				"criteria": {
 					"key": "url",
@@ -27,7 +27,7 @@
 				]
 			},
 			{
-				"enabled": true,
+				"enabled": false,
 				"id": "5b2c2650-c040-458a-83d6-5465af2f9b45",
 				"criteria": {
 					"key": "url",
@@ -40,6 +40,50 @@
 							"value": "https://api.betterttv.net/3/cached/users/twitch/83402203"
 						},
 						"type": "redirect-to"
+					}
+				]
+			},
+			{
+				"enabled": true,
+				"id": "d4b3cbf0-5cd9-4a4c-b54e-9d9378bdca64",
+				"criteria": {
+					"key": "url",
+					"condition": "equals",
+					"value": "https://7tv.io/v3/emote-sets/62cdd34e72a832540de95857"
+				},
+				"actions": [
+					{
+						"details": {
+							"value": "https://7tv.io/v3/emote-sets/01H9GKD1NG000BM9CCBQYJTYMG"
+						},
+						"type": "redirect-to"
+					}
+				]
+			}
+		]
+	},
+	{
+		"enabled": true,
+		"id": "670560b8-2e10-493b-92df-c2d2824e5f97",
+		"name": "Rule Group 2",
+		"filter": {
+			"condition": "starts-with",
+			"key": "page-url",
+			"value": ""
+		},
+		"rules": [
+			{
+				"enabled": true,
+				"id": "534c836d-b731-4339-be84-011db1a757af",
+				"criteria": {
+					"key": "url",
+					"condition": "starts-with",
+					"value": "https://jovemnerd.com.br/api/"
+				},
+				"actions": [
+					{
+						"details": {},
+						"type": "modify-request-header"
 					}
 				]
 			}
