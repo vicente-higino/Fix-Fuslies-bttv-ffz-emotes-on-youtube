@@ -1,4 +1,4 @@
-# Fix Fuslie's bttv/ffz emotes on youtube
+# Fix Fuslie's 7tv emotes on youtube
 
 Install this extention 
 
