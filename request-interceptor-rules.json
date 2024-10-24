@@ -6,43 +6,9 @@
 		"filter": {
 			"condition": "starts-with",
 			"key": "page-url",
-			"value": ""
+			"value": "https://www.youtube.com/"
 		},
 		"rules": [
-			{
-				"enabled": false,
-				"id": "93a1e09d-dcb3-4142-93e5-bbc82b20d2f5",
-				"criteria": {
-					"key": "url",
-					"condition": "equals",
-					"value": "https://api.betterttv.net/3/cached/frankerfacez/users/youtube/UCujyjxsq5FZNVnQro51zKSQ"
-				},
-				"actions": [
-					{
-						"details": {
-							"value": "https://api.betterttv.net/3/cached/frankerfacez/users/twitch/83402203"
-						},
-						"type": "redirect-to"
-					}
-				]
-			},
-			{
-				"enabled": false,
-				"id": "5b2c2650-c040-458a-83d6-5465af2f9b45",
-				"criteria": {
-					"key": "url",
-					"condition": "equals",
-					"value": "https://api.betterttv.net/3/cached/users/youtube/UCujyjxsq5FZNVnQro51zKSQ"
-				},
-				"actions": [
-					{
-						"details": {
-							"value": "https://api.betterttv.net/3/cached/users/twitch/83402203"
-						},
-						"type": "redirect-to"
-					}
-				]
-			},
 			{
 				"enabled": true,
 				"id": "d4b3cbf0-5cd9-4a4c-b54e-9d9378bdca64",
@@ -54,36 +20,27 @@
 				"actions": [
 					{
 						"details": {
-							"value": "https://7tv.io/v3/emote-sets/01H9GKD1NG000BM9CCBQYJTYMG"
+							"value": "https://7tv.io/v3/emote-sets/01GD17VE2R000E0RPNH2V9Z16G"
 						},
 						"type": "redirect-to"
-					}
+					},
+					{}
 				]
-			}
-		]
-	},
-	{
-		"enabled": true,
-		"id": "670560b8-2e10-493b-92df-c2d2824e5f97",
-		"name": "Rule Group 2",
-		"filter": {
-			"condition": "starts-with",
-			"key": "page-url",
-			"value": ""
-		},
-		"rules": [
+			},
 			{
 				"enabled": true,
-				"id": "534c836d-b731-4339-be84-011db1a757af",
+				"id": "6b288dce-9515-4779-b2ca-962cfbf0fe4a",
 				"criteria": {
 					"key": "url",
-					"condition": "starts-with",
-					"value": "https://jovemnerd.com.br/api/"
+					"condition": "equals",
+					"value": "https://7tv.io/v3/users/youtube/UCujyjxsq5FZNVnQro51zKSQ"
 				},
 				"actions": [
 					{
-						"details": {},
-						"type": "modify-request-header"
+						"details": {
+							"value": " https://7tv.io/v3/users/twitch/83402203"
+						},
+						"type": "redirect-to"
 					}
 				]
 			}
