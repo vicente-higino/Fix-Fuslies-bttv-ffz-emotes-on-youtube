@@ -1,4 +1,4 @@
-# Fix Fuslie's 7tv emotes on youtube
+# Use Fuslie's emotes on alpacagurl
 
 Install this extention 
 
