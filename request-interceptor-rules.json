@@ -1,44 +1,60 @@
 [
 	{
 		"enabled": true,
-		"id": "bffdc316-6641-4e72-af32-95abb2773ef6",
-		"name": "Rule Group 1",
+		"id": "0b7cd4a0-8762-4878-97f8-53795719e72e",
+		"name": "Rule Alpacagurl92",
 		"filter": {
 			"condition": "starts-with",
 			"key": "page-url",
-			"value": "https://www.youtube.com/"
+			"value": "https://www.twitch.tv"
 		},
 		"rules": [
 			{
 				"enabled": true,
-				"id": "d4b3cbf0-5cd9-4a4c-b54e-9d9378bdca64",
+				"id": "7a771ded-c48e-438c-a28c-83ebe0396743",
 				"criteria": {
 					"key": "url",
-					"condition": "equals",
-					"value": "https://7tv.io/v3/emote-sets/62cdd34e72a832540de95857"
+					"condition": "starts-with",
+					"value": "https://7tv.io/v3/users/twitch/134198186"
 				},
 				"actions": [
 					{
 						"details": {
-							"value": "https://7tv.io/v3/emote-sets/01GD17VE2R000E0RPNH2V9Z16G"
+							"value": "https://7tv.io/v3/users/twitch/83402203"
 						},
 						"type": "redirect-to"
-					},
-					{}
+					}
 				]
 			},
 			{
 				"enabled": true,
-				"id": "6b288dce-9515-4779-b2ca-962cfbf0fe4a",
+				"id": "55509a23-587b-460b-a0a3-ffbf568e86ef",
 				"criteria": {
 					"key": "url",
-					"condition": "equals",
-					"value": "https://7tv.io/v3/users/youtube/UCujyjxsq5FZNVnQro51zKSQ"
+					"condition": "starts-with",
+					"value": "https://api.frankerfacez.com/v1/room/id/134198186"
 				},
 				"actions": [
 					{
 						"details": {
-							"value": " https://7tv.io/v3/users/twitch/83402203"
+							"value": "https://api.frankerfacez.com/v1/room/id/83402203"
+						},
+						"type": "redirect-to"
+					}
+				]
+			},
+			{
+				"enabled": true,
+				"id": "03ad7538-30f1-4aee-8339-7b6bd5cea3ee",
+				"criteria": {
+					"key": "url",
+					"condition": "starts-with",
+					"value": "https://api.betterttv.net/3/cached/users/twitch/134198186"
+				},
+				"actions": [
+					{
+						"details": {
+							"value": "https://api.betterttv.net/3/cached/users/twitch/83402203"
 						},
 						"type": "redirect-to"
 					}
